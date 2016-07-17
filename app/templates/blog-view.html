@@ -1,0 +1,13 @@
+<section ng-cloak data-ng-controller="BlogController as blog">
+  <div id="blog-img-frame">
+    <img id="blog-img" src="./img/desk.png" alt="an img of a study"/>
+  </div>
+  <article ng-repeat="list in blog.blogData track by $index">
+    <section class="blog-article-header">
+      <h2>{{list.title}}</h2>
+      <h4>{{list.auther}}</h4>
+      <button ng-click="blog.toggleArticle(list)" type="button">Full Article</button>
+    </section>
+    <p ng-class="blog.activeList == list ? 'full-article-view' : 'articles'">{{ list.body }}</p>
+  </article>
+</section>

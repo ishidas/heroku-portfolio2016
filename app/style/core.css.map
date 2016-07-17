@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAMA,MAAO;EACL,KAAK,EAPM,GAAG;EAQd,MAAM,EAPM,IAAI;EAQhB,UAAU,EAAE,2BAAsB;EAClC,MAAM,EAAE,iBAAuB",
+"sources": ["../sass/core.scss"],
+"names": [],
+"file": "core.css"
+}

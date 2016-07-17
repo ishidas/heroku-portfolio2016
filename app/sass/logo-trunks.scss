@@ -1,0 +1,215 @@
+.logo-container {
+  width: 21em;
+  height: 15em;
+  display: inline-block;
+  background-color: rgba(255,255,255, 0.6);
+}
+
+#frame {
+  position: relative;
+/*   outline: 2px red solid; */
+  left: 50px;
+  top: 50px;
+  width: 300px;
+  height: 150px;
+}
+
+#spaceneedle {
+  position: absolute;
+  border-top: 15px solid blue;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+  width: 45px;
+  left: 120px;
+  top: -38px;
+
+}
+
+#ring {
+  position: absolute;
+  border-bottom: 4px solid green;
+  border-right: 2px solid transparent;
+  border-left: 2px solid transparent;
+  width: 65px;
+  top: -34px;
+  left: 113px;
+}
+
+#ringtop {
+  position: absolute;
+  border-bottom: 10px solid blue;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  width: 25px;
+  height: 0;
+  top: -50px;
+  left: 124px;
+}
+
+#needle {
+  position: relative;
+  border-bottom: 20px solid green;
+  border-left: 1px solid transparent;
+  border-right: 1px solid transparent;
+  height: 10px;
+  width: 1px;
+  top: -81px;
+  left: 145px;
+}
+
+#bottom {
+  position: relative;
+  border-top: 30px solid #663300;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  width: 25px;
+  top: -51px;
+  left: 128px;
+  z-index: 0;
+}
+
+#letters1 {
+  position: absolute;
+  color: #009933;
+  font-family: Trebuchet MS;
+  font-size: 40px;
+  z-index: 5;
+  top: 20px;
+}
+
+#letters2 {
+  position: relative;
+  color: #009933;
+  font-family: Trebuchet MS;
+  font-size: 40px;
+  top: -40px;
+  left: 125px;
+  z-index: 5;
+}
+
+#letters3 {
+  position: relative;
+  color: #009933;
+  font-family: Trebuchet MS;
+  font-size: 40px;
+  top: -87px;
+  left:170px;
+}
+
+#bottom4 {
+  position: relative;
+  border-bottom: 60px solid #663300;
+  border-left: 7px solid transparent;
+  border-right: 7px solid transparent;
+  width: 25px;
+  top: -144px;
+  left: 128px;
+  // z-index: -1;
+}
+
+#branch1 {
+  position: relative;
+  width: 10px;
+  height: 30px;
+  -webkit-transform: skew(55deg);
+  background-color: #663300;
+  top: -225px;
+  left: 110px;
+}
+#branch2 {
+  position: relative;
+  width: 10px;
+  height: 30px;
+  -webkit-transform: skew(-55deg);
+  background-color: #663300;
+  top: -265px;
+  left: 174px;
+}
+.leaves {
+/*   outline: solid 1px red; */
+  position: relative;
+  width: 20px;
+  height: 20px;
+  border-top-left-radius: 50%;
+  border-bottom-right-radius: 50%;
+  background-color: #004d1a;
+  animation-name: fade;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+#leaves1 {
+  position: relative;
+  bottom: 315px;
+  left: 80px;
+}
+
+#leaves2 {
+  position: relative;
+  bottom: 310px;
+  left: 90px;
+  -webkit-transform: rotate(70deg);
+}
+
+#leaves3 {
+  position: relative;
+  bottom: 355px;
+  left: 200px;
+  -webkit-transform: rotate(80deg);
+}
+
+#leaves4 {
+  position: relative;
+  bottom: 355px;
+  left: 220px;
+  -webkit-transform: rotate(10deg);
+}
+
+#leaves5 {
+  position: relative;
+  bottom: 380px;
+  left: 185px;
+  -webkit-transform: rotate(60deg);
+}
+#leaves6 {
+  position: relative;
+  bottom: 400px;
+  left: 60px;
+  -webkit-transform: rotate(80deg);
+}
+#leaves7 {
+  position: relative;
+  bottom: 390px;
+  left: 60px;
+  -webkit-transform: rotate(80deg);
+}
+#leaves8 {
+  position: relative;
+  bottom: 415px;
+  left: 205px;
+  -webkit-transform: rotate(80deg);
+}
+#leaves9 {
+  position: relative;
+  bottom: 430px;
+  left: 90px;
+}
+#leaves10 {
+  position: relative;
+  bottom: 450px;
+  left: 180px;
+  -webkit-transform: rotate(70deg);
+}
+
+@keyframes fade {
+  0%  {background-color: #00ff55;}
+  25% {background-color: #00b33c;}
+  50% {background-color: #003311;}
+  75% {background-color: #006622;}
+  100% {background-color: #00b33c;}
+}
+#trade-mark {
+  position: absolute;
+  bottom: -10px;
+  font-size: 10px;
+}

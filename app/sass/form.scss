@@ -1,0 +1,67 @@
+$background-color-articles: rgba(255,255,255, 0.6);
+$button-color: rgb(186,218,85);
+
+#blog-body, #blog-title, #blog-auther {
+  font-size: 100%;
+}
+
+#blog-body {
+  width: 100%;
+  height: 50em;
+  border: 4px solid pink;
+}
+
+#blog-title {
+  width: 60%;
+}
+
+#blog-auther {
+  width: 40%;
+}
+
+#blog-img-frame {
+  width: 100%;
+  // height: auto;
+}
+
+#blog-img {
+  width: 100%;
+  height: 100%;
+}
+
+.blog-article-header {
+  padding: 0 10%;
+}
+
+.articles {
+  width: 80%;
+  height: 5em;
+  margin: 5% 10%;
+  text-align: justify;
+  overflow: hidden;
+  box-shadow: inset 3px -31px 41px -25px rgba(0,0,0,0.75);
+  background-color: $background-color-articles;
+
+}
+
+.full-article-view {
+  width: 80%;
+  height: 100%;
+  padding: 0 5%;
+  margin: 5% 5%;
+  text-align: justify;
+  box-shadow: none;
+  background-color: $background-color-articles;
+}
+
+button, #github-button {
+  padding: 1%;
+  font-family: Quicksand;
+  font-size: medium;
+  background-color: $button-color;
+  border-radius: 2%;
+  box-shadow: 1px 1px 1px 1px #888888;
+  color: white;
+  font-weight: bold;
+  border: none;
+}

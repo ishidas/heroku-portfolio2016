@@ -1,0 +1,50 @@
+// $two-corners-color: rgba(58,190,255,1);
+// $two-corners-color2: rgba(194,252,247,1);
+//
+// #corner-top-right {
+//   position: absolute;
+//   right: 0;
+//   top: 0;
+//   background-color: $two-corners-color2;
+//   float: right;
+//   width: 54%;
+//   height: 20em;
+//   -webkit-clip-path: polygon(0% 0,100% 100%,100% 0);
+//   z-index: -10;
+// }
+//
+// #corner-top-left {
+//   position: absolute;
+//   left: 0;
+//   top: 0;
+//   background-color: $two-corners-color;
+//   float: left;
+//   width: 60%;
+//   height: 20em;
+//   -webkit-clip-path: polygon(0 0,100% 0,0 100%);
+//   z-index: -10;
+// }
+//
+// #corner-bottom-left {
+//   position: fixed;
+//   bottom: 0;
+//   left: 0;
+//   background-color: $two-corners-color2;
+//   float: left;
+//   width: 60%;
+//   height: 15.5em;
+//   -webkit-clip-path: polygon(0 0,100% 100%,0 100%);
+//   z-index: -10;
+// }
+//
+// #corner-bottom-right {
+//   position: fixed;
+//   right: 0;
+//   bottom: 0;
+//   background-color: $two-corners-color;
+//   float: right;
+//   width: 58%;
+//   height: 18em;
+//   -webkit-clip-path: polygon(100% 15%,100% 100%,20% 100%);
+//   z-index: -10;
+// }
