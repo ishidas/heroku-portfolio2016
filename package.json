@@ -2,7 +2,7 @@
   "name": "cli-backend",
   "version": "1.0.0",
   "description": "Creating front end",
-  "main": "cli-server.js",
+  "main": "server.js",
   "directories": {
     "test": "test"
   },
