@@ -11,7 +11,7 @@ const minifyCSS = require('gulp-minify-css');
 
 const source = {
   html: __dirname + '/app/**/*.html',
-  js: __dirname + '/app/index.js',
+  js: __dirname + '/app/app.js',
   test: __dirname + '/test/*_spec.js',
   directive: __dirname + '/app/*.js',
   sass: __dirname + '/app/**/*.scss',

@@ -3,13 +3,14 @@ const express = require('express');
 const app = express();
 const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
+const gzippo = require('gzippo');
 
 //db set up
 const PORT = process.env.MONGO_PORT || 3000;
 // const DB = process.env.MONGO_URI || 'mongodb://localhost/db';
 // const test = 'mongodb://localhost/db';
 mongoose.connect(process.env.MONGOLAB_URI);
-app.use(express.static(__dirname + '/public'));
+app.use(gzippo.staticGzip('' + __dirname + '/public'));
 mongoose.set('debug', true);
 // console.log(process.env.MONGOLAB_URI);
 let models = {};
