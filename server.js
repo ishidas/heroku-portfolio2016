@@ -5,7 +5,7 @@ const bodyParser = require('body-parser');
 const mongoose = require('mongoose');
 
 //db set up
-// const PORT = process.env.MONGO_PORT || 3000;
+const PORT = process.env.MONGO_PORT || 3000;
 // const DB = process.env.MONGO_URI || 'mongodb://localhost/db';
 // const test = 'mongodb://localhost/db';
 mongoose.connect(process.env.MONGOLAB_URI);
@@ -66,4 +66,4 @@ app.delete('/admin/blog/article/:id', (req, res)=>{
   });
 });
 
-app.listen(3000, ()=> console.log('Backend server listening at 3000'));
+app.listen(PORT, ()=> console.log('Backend server listening at 3000'));
