@@ -9,7 +9,7 @@ const gzippo = require('gzippo');
 const PORT = process.env.MONGO_PORT || 3000;
 // const DB = process.env.MONGO_URI || 'mongodb://localhost/db';
 // const test = 'mongodb://localhost/db';
-mongoose.connect(process.env.MONGOLAB_URI);
+mongoose.connect(process.env.MONGODB_URI);
 app.use(gzippo.staticGzip('' + __dirname + '/public'));
 mongoose.set('debug', true);
 // console.log(process.env.MONGOLAB_URI);
