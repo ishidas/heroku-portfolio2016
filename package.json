@@ -21,7 +21,6 @@
     "angular-route": "^1.5.7",
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
-    "gzippo": "^0.2.0",
     "mongoose": "^4.5.4",
     "eslint": "^2.8.0",
     "file-loader": "^0.8.5",
