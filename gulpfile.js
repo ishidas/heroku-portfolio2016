@@ -2,7 +2,7 @@
 //if you wanna attach karma star to gulp, you can, but make sure bundle first and make sure it finishes before running test
 const gulp = require('gulp');
 const eslint = require('gulp-eslint');
-const mocha = require('gulp-mocha');
+// const mocha = require('gulp-mocha');
 const paths = ['*.js', 'test/*.js', 'app/*.js', 'app/templates/*.js', 'app/**/*.html', 'app/**/*.scss'];
 const webpack = require('webpack-stream');
 const sass = require('gulp-sass');
@@ -43,20 +43,20 @@ gulp.task('copy', ()=>{
     .pipe(gulp.dest('./public'));
 });
 
-gulp.task('bundle:test', ()=>{
-  return gulp.src(source.test)
-    .pipe(webpack({
-      output: {
-        filename: 'test_bundle.js'
-      },
-      module: {
-        loaders: [
-          {test:  /\.scss$/, loaders: ['style', 'css', 'sass']}
-        ]
-      }
-    }))
-    .pipe(gulp.dest('./test'));
-});
+// gulp.task('bundle:test', ()=>{
+//   return gulp.src(source.test)
+//     .pipe(webpack({
+//       output: {
+//         filename: 'test_bundle.js'
+//       },
+//       module: {
+//         loaders: [
+//           {test:  /\.scss$/, loaders: ['style', 'css', 'sass']}
+//         ]
+//       }
+//     }))
+//     .pipe(gulp.dest('./test'));
+// });
 
 gulp.task('bundle:dev', function(){
   return gulp.src(source.directive)
@@ -80,10 +80,10 @@ gulp.task('eslint', function(){
   .pipe(eslint.format());
 });
 
-gulp.task('test', function(){
-  return gulp.src( __dirname + '/test/test.js', {read: false})
-  .pipe(mocha({reporter: 'nyan'}));
-});
+// gulp.task('test', function(){
+//   return gulp.src( __dirname + '/test/test.js', {read: false})
+//   .pipe(mocha({reporter: 'nyan'}));
+// });
 
 gulp.task('watcher', function(){
   gulp.watch( paths, ['bundle:dev','sassy:dev']);

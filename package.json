@@ -12,7 +12,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js",
-    "postinstall": "npm install && gulp"
+    "postinstall": "gulp"
   },
   "author": "sawako.ishida!@gmail.com",
   "license": "ISC",
@@ -22,9 +22,7 @@
     "body-parser": "^1.15.2",
     "express": "^4.14.0",
     "gzippo": "^0.2.0",
-    "mongoose": "^4.5.4"
-  },
-  "devDependencies": {
+    "mongoose": "^4.5.4",
     "eslint": "^2.8.0",
     "file-loader": "^0.8.5",
     "gulp": "^3.9.1",
@@ -39,6 +37,8 @@
     "sass-loader": "^3.2.0",
     "webpack": "^1.13.0",
     "webpack-stream": "^3.1.0"
+  },
+  "devDependencies": {
   },
   "repository": {
     "type": "git",
