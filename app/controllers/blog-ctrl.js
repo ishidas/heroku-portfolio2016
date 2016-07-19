@@ -12,7 +12,7 @@ module.exports = function(app){
     this.activeId;
 
     //get all articles
-    $http.get(mainRoute + '/blog/articles')
+    $http.get(mainRoute + 'api/blog/articles')
       .then((res)=>{
         this.blogData = res.data;
         console.log(JSON.stringify(this.blogData));
@@ -20,7 +20,7 @@ module.exports = function(app){
 
     //admin/blog
     this.postNewBlog = function(){
-      $http.post(mainRoute + '/admin/blog',this.newPost)
+      $http.post(mainRoute + 'api/admin/blog',this.newPost)
         .then((res)=>{
           console.log('res : ' + JSON.stringify(res));
         });
