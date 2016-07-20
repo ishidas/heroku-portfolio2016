@@ -1,10 +1,9 @@
 'use strict';
-module.exports = function(app){
+const angular = require('angular');
+module.exports = function(app, angular){
   app.controller('logoController',['$document','$window', function($document, $window){
 
-    // console.log('ELEMENT????', $document.('sticky-section'));
-
-    // };
+    console.log('finding section', angular.element('section').find('non-sticky'));
 
 
   }]);

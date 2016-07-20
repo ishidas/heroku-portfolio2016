@@ -8,7 +8,7 @@ require(__dirname + '/directives/directives.js')(app);
 require(__dirname + '/controllers/github-ctrl.js')(app);
 require(__dirname + '/controllers/blog-ctrl.js')(app);
 require(__dirname + '/controllers/about-ctrl.js')(app);
-require(__dirname + '/controllers/logo-ctrl.js')(app);
+require(__dirname + '/controllers/logo-ctrl.js')(app, angular);
 
 
 //route providers
