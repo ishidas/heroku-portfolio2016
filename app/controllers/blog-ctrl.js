@@ -1,6 +1,6 @@
 module.exports = function(app){
   app.controller('BlogController',['$http',function($http){
-    var mainRoute = 'https://github.com/ishidas/heroku-jan2016-portfolio';
+    var mainRoute = 'https://sawako-portfolio2016.herokuapp.com';
     this.blogData = {};
     this.newPost = {
       title: '',
