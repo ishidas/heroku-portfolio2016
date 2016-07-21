@@ -38,7 +38,9 @@ module.exports = function(app){
           var indx = e.target.getAttribute('data-index');
           clickable(scope)(indx);
         });
-      }
+      },
+      controller: 'navController',
+      controllerAs: 'navCtrl'
     };
   });
 
