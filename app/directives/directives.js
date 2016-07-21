@@ -28,6 +28,22 @@ module.exports = function(app){
     };
   });
 
+  app.directive('clickChildren', function($parse){
+    return {
+      restrict: 'A',
+      link: function(scope, element, attr){
+        var selector = attr.selector;
+        var clickable = $parse(attr.clickChildren);
+        element.on('click', selector, function(e){
+          var indx = e.target.getAttribute('data-index');
+          clickable(scope)(indx);
+        });
+      }
+    };
+  });
+
+
+
 
 
 
