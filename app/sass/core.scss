@@ -84,16 +84,18 @@ nav ul li {
   position: relative;
   display: inline-block;
   list-style: none;
-  width: 10em;
-  height: 10em;
+  width: 15em;
+  height: 15em;
   margin: 2.5%;
 }
 
 nav ul li a {
   position: absolute;
-  right: 25%;
-  bottom: 50%;
-  font-size: 1.5em;
+  // right: 25%;
+  // bottom: 50%;
+  top: 0;
+  left: 0;
+  font-size: 2em;
 }
 
 a:link {
