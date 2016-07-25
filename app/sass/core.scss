@@ -93,11 +93,9 @@ nav ul li a {
   position: absolute;
   // right: 25%;
   // bottom: 50%;
-  // top: 0;
-  // left: 0;
+  top: 0;
+  left: 0;
   font-size: 2em;
-  text-align: center;
-  width: 100%;
 }
 
 a:link {
@@ -118,6 +116,11 @@ a:hover {
 
 #nav-plant2, #nav-flower {
   height: 6em;
+}
+
+#nav-plant2, #nav-plant, #nav-carrot {
+  text-align: center;
+  width: 100%;
 }
 
 #animations-nav {
