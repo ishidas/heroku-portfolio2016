@@ -8,21 +8,23 @@
   background-attachment: fixed;
 }
 
-.sticky-section {
-  position: fixed;
-  width: 100%;
-  text-align: center;
-  background-color: rgba(0,0,0, 0.6);
-  color: white;
-  margin-top: 26px
-}
+// .sticky-section {
+//   position: fixed;
+//   width: 100%;
+//   text-align: center;
+//   background-color: rgba(0,0,0, 0.6);
+//   color: white;
+//   margin-top: 26px
+// }
 
 .non-sticky {
+  position: fixed;
+  left: 0px;
+  z-index: 9999;
   width: 100%;
   text-align: center;
   background-color: rgba(0,0,0, 0.6);
   color: white;
-  margin-top: 26px;
 }
 
 .logo-img-containers {
