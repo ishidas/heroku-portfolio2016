@@ -15,6 +15,7 @@ $href-color: green;
 $button-color: rgb(186,218,85);
 $corner-top-left-color: rgb(58,190,255);
 $header-color: rgb(128,123,135);
+$prime-color: rgba(51, 124, 160, 1);
 // $base-font-google: 'Bad Script', 'cursive';
 // $base-font-google2: 'La BelleAurore', 'cursive';
 $base-font-google3: 'Quicksand', 'sans-serif';
@@ -38,7 +39,8 @@ header {
   position: fixed;
   display: inline-block;
   width: 100%;
-  color: $header-color;
+  color: white;
+  background-color: rgba(51, 124, 160, 1);
 }
 
 header h2 {
@@ -48,7 +50,8 @@ header h2 {
   text-align: center;
   font-family: $base-font-google4;
   font-size: xx-large;
-  background-color: rgba(51, 124, 160, 1);
+  background-color: $button-color;
+  // background-color: #81C11B;
   color: white;
 }
 
@@ -89,29 +92,28 @@ nav ul li {
   margin: 2.5%;
 }
 
-nav ul li a {
+.nav-a-tag {
   position: absolute;
-  // right: 25%;
-  // bottom: 50%;
   top: 0;
   left: 0;
   font-size: 2em;
-}
-
-a:link {
-  color: $header-color;
-  text-decoration: none;
-}
-
-a:visited {
-  color: $header-color;
-  text-decoration: underline;
-}
-
-a:hover {
   color: $button-color;
-  text-decoration: none;
+    a:link {
+      color: white;
+      text-decoration: none;
+    }
+
+    a:visited {
+      color: white;
+      text-decoration: underline;
+    }
+
+    a:hover {
+      color: $prime-color;
+      text-decoration: none;
+    }
 }
+
 
 
 #nav-plant, #nav-plant2, #nav-flower {
