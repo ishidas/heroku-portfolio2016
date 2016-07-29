@@ -98,22 +98,22 @@ nav ul li {
   left: 0;
   font-size: 2em;
   color: $button-color;
-    a:link {
-      color: white;
-      text-decoration: none;
-    }
-
-    a:visited {
-      color: white;
-      text-decoration: underline;
-    }
-
-    a:hover {
-      color: $prime-color;
-      text-decoration: none;
-    }
 }
 
+a:link {
+  color: white;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  text-decoration: underline;
+}
+
+a:hover {
+  color: $prime-color;
+  text-decoration: none;
+}
 
 
 #nav-plant, #nav-plant2, #nav-flower {
