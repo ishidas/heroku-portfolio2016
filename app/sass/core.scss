@@ -40,7 +40,6 @@ header {
   display: inline-block;
   width: 100%;
   color: white;
-  background-color: rgba(51, 124, 160, 1);
 }
 
 header h2 {
@@ -62,7 +61,7 @@ header span,  {
 
 .icon-sec {
   text-align: center;
-  background-color: white;
+  background-color: $prime-color;
 }
 
 .icon-sec span {
@@ -87,7 +86,7 @@ nav ul li {
   position: relative;
   display: inline-block;
   list-style: none;
-  width: 15em;
+  width: 10em;
   height: 15em;
   margin: 2.5%;
 }
