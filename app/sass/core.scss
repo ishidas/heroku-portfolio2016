@@ -96,13 +96,15 @@ nav ul li {
   position: relative;
   display: inline-block;
   list-style: none;
-  width: 10em;
+  width: 13em;
   height: 15em;
   margin: 2.5%;
+  text-align: center;
 }
 
 .nav-a-tag {
   position: absolute;
+  width: 100%;
   top: 0;
   left: 0;
   font-size: 2em;
