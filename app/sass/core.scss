@@ -80,7 +80,7 @@ header span,  {
 
 nav {
   width: 100%;
-  position: relative;
+  position: absolute;
   margin: 5% 0%;
 }
 
@@ -91,7 +91,7 @@ nav ul {
   justify-content: center;
   width: 100%;
   padding: 0;
-  margin-top: 15%;
+  // margin-top: 15%;
 }
 
 nav ul li {
