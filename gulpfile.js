@@ -65,9 +65,23 @@ gulp.task('bundle:dev', function(){
       filename: 'bundle.js'
     },
     module: {
-      loaders: [{test: /\.(png|jpg|gif)$/,
-          loader: 'file-loader?name=img/img-[hash:6].[ext]'},
-        { test: /\.css$/, loader: 'style!css' }
+      loaders: [
+        {
+          test: /\.(png|jpg|gif)$/,
+          loader: 'file-loader?name=img/img-[hash:6].[ext]'
+        },
+        {
+          test: /\.css$/,
+          loader: 'style!css'
+        },
+        {
+          test: /\.js$/,
+          loader: 'babel',
+          exclude: /node_modules/,
+          query: {
+            presets: ['es2015']
+          }
+        }
       ]
     }
   }))
