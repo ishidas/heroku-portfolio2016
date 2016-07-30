@@ -42,6 +42,7 @@ module.exports = function(app){
       controller: 'navController',
       controllerAs: 'navCtrl'
     };
+
   });
 
 

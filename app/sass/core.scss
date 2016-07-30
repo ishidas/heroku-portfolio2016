@@ -206,6 +206,13 @@ footer ul li {
   padding: 10% 10%;
 }
 
+footer {
+  position: fixed;
+  bottom: 0px;
+  height: 200px;
+  background-color: saddlebrown;
+}
+
 @media only screen and (max-width: $break-small) {
   nav ul {
     width: 100%;
