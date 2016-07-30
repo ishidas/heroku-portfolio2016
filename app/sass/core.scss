@@ -206,14 +206,14 @@ footer ul li {
   padding: 10% 10%;
 }
 
-@media screen and (max-width: $break-small) {
+@media only screen and (max-width: $break-small) {
   nav ul {
     width: 100%;
     padding: 0;
   }
 }
 
-@media screen and (max-width: 888px) {
+@media only screen and (max-width: 888px) {
   nav ul {
     flex-wrap: wrap;
 
