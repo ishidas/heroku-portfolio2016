@@ -98,7 +98,7 @@ nav ul li {
   list-style: none;
   width: 13em;
   height: 15em;
-  margin: 2.5%;
+  margin: 1%;
   text-align: center;
 }
 
@@ -210,5 +210,18 @@ footer ul li {
   nav ul {
     width: 100%;
     padding: 0;
+  }
+}
+
+@media screen and (max-width: 888px) {
+  nav ul {
+    flex-wrap: wrap;
+
+  }
+  nav ul li {
+    width: 15em;
+  }
+  #nav-flower {
+    margin-right: 3%;
   }
 }
