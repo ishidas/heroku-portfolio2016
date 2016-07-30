@@ -213,6 +213,13 @@ footer {
   background-color: saddlebrown;
 }
 
+#footer-p {
+  text-align: left;
+  position: relative;
+  top: 138px;
+  padding-left: 2%;
+}
+
 @media only screen and (max-width: $break-small) {
   nav ul {
     width: 100%;
