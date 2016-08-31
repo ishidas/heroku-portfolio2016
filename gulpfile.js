@@ -35,7 +35,7 @@ gulp.task('sassy:dev', ()=>{
 
 gulp.task('img', ()=>{
   return gulp.src(source.img)
-    .pipe(gulp.dest('./public'));
+    .pipe(gulp.dest('./public/img/'));
 });
 
 gulp.task('copy', ()=>{
