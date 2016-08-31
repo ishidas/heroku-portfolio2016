@@ -67,7 +67,7 @@ gulp.task('bundle:dev', function(){
     module: {
       loaders: [
         {
-          test: /\.(png|jpg|gif)$/,
+          test: /\.(png|jpg|gif|jpeg)$/,
           loader: 'file-loader?name=img/img-[hash:6].[ext]'
         },
         {
