@@ -16,6 +16,18 @@ section#outer-about-me section {
   background-color: beige;
   width: 100%;
 }
+
+section#outer-about-me section p {
+  position: relative;
+  color: white;
+}
+
+#laptop-shape {
+  shape-outside: circle(50%);
+  width: 300px;
+  height: 300px;
+  float: left;
+}
 // #outer-about-me {
 //   background-image: url('./img/about-me-background.png');
 //   width: 60%;
