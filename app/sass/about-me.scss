@@ -1,8 +1,8 @@
-#study-img {
-  width: 100%;
-  height: auto;
+section#outer-about-me section #study-img {
   position: fixed;
   top: 15%;
+  width: 100%;
+  height: auto;
 }
 
 #outer-about-me {
@@ -11,7 +11,7 @@
   background-color: beige;
 }
 
-#outer-about-me > section {
+section#outer-about-me section {
   position: absolute;
   background-color: beige;
   width: 100%;
