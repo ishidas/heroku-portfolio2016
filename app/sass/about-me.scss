@@ -24,9 +24,16 @@ section#outer-about-me section p {
 
 #laptop-shape {
   shape-outside: circle(50%);
-  width: 300px;
-  height: 300px;
+  width: 12em;
+  height: 12em;
   float: left;
+}
+
+#camera-shape {
+  shape-outside: circle(50%);
+  width: 12em;
+  height: 12em;
+  float: right;
 }
 // #outer-about-me {
 //   background-image: url('./img/about-me-background.png');
