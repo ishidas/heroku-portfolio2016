@@ -15,7 +15,7 @@ const source = {
   test: __dirname + '/test/*_spec.js',
   directive: __dirname + '/app/*.js',
   sass: __dirname + '/app/**/*.scss',
-  img: __dirname + '/app/**/*.png',
+  img: __dirname + '/app/img/*',
   env: __dirname + '/app/env.js'
 };
 
