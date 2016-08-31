@@ -109,4 +109,4 @@ gulp.task('watcher', function(){
   gulp.watch( paths, ['bundle:dev','sassy:dev']);
 });
 
-gulp.task('default', ['clean','copy', 'sassy:dev', 'bundle:dev','img']);
+gulp.task('default', ['copy', 'sassy:dev', 'bundle:dev','img']);
