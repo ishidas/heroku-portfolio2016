@@ -242,7 +242,7 @@ footer {
 @media only screen and (max-width: 888px) {
   nav ul {
     flex-wrap: wrap;
-
+    margin-top: 15%;
   }
   nav ul li {
     width: 15em;
@@ -253,7 +253,7 @@ footer {
   #footer-p {
     text-align: left;
     position: relative;
-    /* top: 138px; */
+    top: 0;
     padding-left: 2%;
   }
   footer {
