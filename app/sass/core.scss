@@ -250,4 +250,18 @@ footer {
   #nav-flower {
     margin-right: 3%;
   }
+  #footer-p {
+    text-align: left;
+    position: relative;
+    /* top: 138px; */
+    padding-left: 2%;
+  }
+  footer {
+    width: 100%;
+    font-family: Quicksand,sans-serif;
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    background-color: #8b4513;
+  }
 }
