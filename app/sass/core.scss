@@ -240,13 +240,20 @@ footer {
 @media only screen and (max-width: 888px) {
   nav ul {
     flex-wrap: wrap;
-    margin-top: 15%;
+    margin-top: 0;
+    position: absolute;
+    padding-top: 13%;
   }
   nav ul li {
-    width: 15em;
+    width: 13em;
+    height: 12em;
   }
   #nav-flower {
     margin-right: 3%;
+    width: 75%;
+  }
+  #nav-plant, #nav-plant2, #nav-carrot {
+    width: 60%;
   }
   #footer-p {
     text-align: left;
