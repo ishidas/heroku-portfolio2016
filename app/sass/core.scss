@@ -1,10 +1,11 @@
 @import 'normalize';
 @import 'form';
-@import 'animations-home';
+// @import 'animations-home';
 @import 'logo-trunks';
-@import 'shapes-background';
+// @import 'shapes-background';
 @import 'logo-img';
 @import 'about-me';
+@import 'github-view';
 
 $base-width: 100%;
 $base-height: 100%;
@@ -187,14 +188,7 @@ a:hover {
   padding: 0 10%;
 }
 
-#github-avatar {
-  width: 30%;
-}
 
-#github-profile {
-  padding: 0 10%;
-  margin: 10% 0%;
-}
 
 
 span a {

@@ -1,0 +1,14 @@
+#github-avatar {
+  width: 30%;
+}
+
+#github-profile {
+  padding: 0 10%;
+  margin: 10% 0%;
+}
+
+@media only screen (max-width: 457px) {
+  #github-profile {
+    padding: 20%;
+  }
+}
