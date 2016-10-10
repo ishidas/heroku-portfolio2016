@@ -235,6 +235,9 @@ footer {
     width: 100%;
     padding-top: 30%;
   }
+  nav ul li {
+    margin-top: 19%;
+  }
 }
 
 @media only screen and (max-width: 888px) {
@@ -242,7 +245,7 @@ footer {
     flex-wrap: wrap;
     margin-top: 0;
     position: absolute;
-    padding-top: 13%;
+    padding-top: 18%;
   }
   nav ul li {
     width: 13em;
