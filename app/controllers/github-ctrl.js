@@ -20,6 +20,7 @@ module.exports = function(app){
       .then((res)=>{
         res.data.map((repo)=>{
           var obj = {};
+          console.dir('repo', repo);
           obj.name = repo.name;
           obj.url = repo.url;
           obj.created_at = repo.created_at;
