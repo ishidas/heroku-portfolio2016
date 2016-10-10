@@ -4,6 +4,7 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
+  padding-top: 20%;
   background-image: url('./../img/brick-wall.png');
   background-attachment: fixed;
 }
@@ -55,4 +56,10 @@
 #shelseylogo {
   position: relative;
   left: 4em;
+}
+
+@media only screen and (max-width:725px) {
+  .logo-outer-container {
+    padding-top: 30%;
+  }
 }
