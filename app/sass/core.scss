@@ -52,6 +52,8 @@ header {
   position: fixed;
   display: block; // was inline block
   width: 100%;
+  top: 0px;
+  left: 0px;
   color: white;
   z-index: 9999;
 }
