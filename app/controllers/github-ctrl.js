@@ -10,6 +10,7 @@ module.exports = function(app){
     //by calling this.getRepoLinks function later on.
     $http.get(mainRoute)
     .then((res)=>{
+      console.dir(res.data);
       this.repoData = res.data;
       this.reposUrl = res.data.repos_url;
     });
@@ -20,7 +21,6 @@ module.exports = function(app){
       .then((res)=>{
         res.data.map((repo)=>{
           var obj = {};
-          console.dir('repo', repo);
           obj.name = repo.name;
           obj.url = repo.url;
           obj.created_at = repo.created_at;
