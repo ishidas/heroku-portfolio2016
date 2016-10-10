@@ -159,6 +159,7 @@ a:hover {
 #blog-nav {
   right: 40%;
   width: 200px;
+  padding-left: 10%;
   text-align: center;
 }
 
@@ -238,7 +239,7 @@ footer {
 @media only screen and (max-width: $break-small) {
   nav ul {
     width: 100%;
-    padding: 0;
+    padding-top: 30%;
   }
 }
 
