@@ -1,3 +1,4 @@
+$background: beige;
 
 .logo-outer-container {
   display: flex;
@@ -5,7 +6,7 @@
   flex-wrap: wrap;
   justify-content: center;
   padding-top: 20%;
-  background-image: url('./../img/brick-wall.png');
+  background-color: $background;
   background-attachment: fixed;
 }
 

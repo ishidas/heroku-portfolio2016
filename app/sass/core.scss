@@ -17,6 +17,7 @@ $button-color: rgb(186,218,85);
 $corner-top-left-color: rgb(58,190,255);
 $header-color: rgb(128,123,135);
 $prime-color: rgba(51, 124, 160, 1);
+$background: beige;
 // $base-font-google: 'Bad Script', 'cursive';
 // $base-font-google2: 'La BelleAurore', 'cursive';
 $base-font-google3: 'Quicksand', 'sans-serif';
@@ -91,6 +92,7 @@ nav {
   top: 0px;
   left: 0px;
   position: absolute;
+  background-color: $background;
 }
 
 nav ul {
